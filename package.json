@@ -1,9 +1,9 @@
 {
-    "name": "@techkit/linters-config",
+    "name": "@techkit/linter-config",
     "version": "0.0.0",
     "license": "MIT",
     "description": "Configurations for linters",
-    "repository": "git@github.com:techkit/linters-config.git",
+    "repository": "git@github.com:techkit/linter-config.git",
     "contributors": [
         {
             "name": "Renzo Rosas",
@@ -20,7 +20,7 @@
     ],
     "scripts": {
         "build": "tsc --build",
-        "release": "release-it --ci"
+        "release": "release-it"
     },
     "gitHooks": {
         "commit-msg": "commitlint -e -V"
