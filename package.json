@@ -1,0 +1,52 @@
+{
+    "name": "@techkit/linters-config",
+    "version": "0.0.0",
+    "license": "MIT",
+    "description": "Configurations for linters",
+    "repository": "git@github.com:techkit/linters-config.git",
+    "contributors": [
+        {
+            "name": "Renzo Rosas",
+            "url": "https://github.com/rrosas1198"
+        }
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "exports": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc --build",
+        "release": "release-it --ci"
+    },
+    "gitHooks": {
+        "commit-msg": "commitlint -e -V"
+    },
+    "dependencies": {
+        "@types/eslint": "latest",
+        "@types/lodash.merge": "latest",
+        "@types/prettier": "latest",
+        "@typescript-eslint/eslint-plugin": "latest",
+        "@typescript-eslint/parser": "latest",
+        "eslint-config-prettier": "latest",
+        "eslint-define-config": "latest",
+        "eslint-plugin-prettier": "latest",
+        "lodash.merge": "latest"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^14.1.0",
+        "@commitlint/config-conventional": "^14.1.0",
+        "eslint": "^8.2.0",
+        "prettier": "^2.4.1",
+        "release-it": "^14.11.6",
+        "typescript": "^4.4.4",
+        "yorkie": "^2.0.0"
+    },
+    "peerDependencies": {
+        "eslint": ">= 8.0.0",
+        "prettier": ">= 2.0.0"
+    }
+}
