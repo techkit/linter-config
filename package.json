@@ -33,12 +33,14 @@
         "@typescript-eslint/parser": "latest",
         "eslint-config-prettier": "latest",
         "eslint-define-config": "latest",
+        "eslint-plugin-jest": "latest",
         "eslint-plugin-prettier": "latest",
         "lodash.merge": "latest"
     },
     "devDependencies": {
         "@commitlint/cli": "^14.1.0",
         "@commitlint/config-conventional": "^14.1.0",
+        "@release-it/conventional-changelog": "^3.3.0",
         "eslint": "^8.2.0",
         "prettier": "^2.4.1",
         "release-it": "^14.11.6",
