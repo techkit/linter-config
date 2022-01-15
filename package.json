@@ -35,7 +35,8 @@
         "eslint-define-config": "latest",
         "eslint-plugin-jest": "latest",
         "eslint-plugin-prettier": "latest",
-        "lodash.merge": "latest"
+        "lodash.merge": "latest",
+        "stylelint-config-twbs-bootstrap": "^3.0.1"
     },
     "devDependencies": {
         "@commitlint/cli": "^14.1.0",
@@ -44,11 +45,13 @@
         "eslint": "^8.2.0",
         "prettier": "^2.4.1",
         "release-it": "^14.11.6",
+        "stylelint": "^14.2.0",
         "typescript": "^4.4.4",
         "yorkie": "^2.0.0"
     },
     "peerDependencies": {
         "eslint": ">= 8.0.0",
-        "prettier": ">= 2.0.0"
+        "prettier": ">= 2.0.0",
+        "stylelint": ">= 14.0.0"
     }
 }
