@@ -26,6 +26,8 @@
         "commit-msg": "commitlint -e -V"
     },
     "dependencies": {
+        "@commitlint/config-conventional": "latest",
+        "@commitlint/types": "latest",
         "@types/eslint": "latest",
         "@types/lodash.merge": "latest",
         "@types/prettier": "latest",
@@ -40,7 +42,6 @@
     },
     "devDependencies": {
         "@commitlint/cli": "^16.0.2",
-        "@commitlint/config-conventional": "^16.0.0",
         "@release-it/conventional-changelog": "^4.1.0",
         "eslint": "^8.7.0",
         "prettier": "^2.5.1",
@@ -50,6 +51,7 @@
         "yorkie": "^2.0.0"
     },
     "peerDependencies": {
+        "@commitlint/cli": ">= 16.0.0",
         "eslint": ">= 8.0.0",
         "prettier": ">= 2.0.0",
         "stylelint": ">= 14.0.0"

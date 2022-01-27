@@ -7,11 +7,9 @@ export const StylelintBaseConfig: StylelintConfig = mergeStylelintConfig(configT
         indentation: 4,
         "string-quotes": "double",
         "number-leading-zero": "always",
-        // Multiline - Inicio
         "declaration-colon-newline-after": null,
         "value-list-comma-newline-after": null,
         "value-list-comma-space-after": null,
-        // Multiline - Fin
         "selector-class-pattern": "^[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$"
     },
     overrides: [
