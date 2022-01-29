@@ -1,3 +1,10 @@
+# 0.3.0 (2022-01-27)
+
+
+### Features
+
+* **commitlint:** base config and utils created ([5a16803](https://github.com/techkit/linter-config/commit/5a16803ef0daa16cd5090088ce0d9c357d3bc509))
+
 ## 0.2.2 (2022-01-26)
 
 ## 0.2.1 (2022-01-16)
