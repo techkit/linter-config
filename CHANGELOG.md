@@ -1,3 +1,10 @@
+## 0.3.2 (2022-02-18)
+
+
+### Bug Fixes
+
+* eslint base config module source type added ([95bd5a0](https://github.com/techkit/linter-config/commit/95bd5a09c28498af65e33cc51c8ab40f07a243df))
+
 ## 0.3.1 (2022-01-29)
 
 # 0.3.0 (2022-01-27)
