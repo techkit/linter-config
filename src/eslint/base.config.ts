@@ -7,6 +7,9 @@ export const EslintBaseConfig = defineEslintConfig({
         browser: true,
         es2021: true
     },
+    parserOptions: {
+        sourceType: "module"
+    },
     extends: ["eslint:recommended"],
     rules: {
         eqeqeq: "error",
