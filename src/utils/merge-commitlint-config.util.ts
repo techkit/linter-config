@@ -1,6 +1,6 @@
 import { UserConfig as CommitlintConfig } from "@commitlint/types";
-import merge from "lodash.merge";
+import defu from "defu";
 
 export function mergeCommitlintConfig(...configs: CommitlintConfig[]) {
-    return merge({}, ...configs);
+    return defu({}, ...configs);
 }

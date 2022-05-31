@@ -1,1 +1,1 @@
-declare module "stylelint-config-twbs-bootstrap" {}
+declare module "stylelint-config-twbs-bootstrap";
