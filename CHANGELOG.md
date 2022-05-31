@@ -1,3 +1,7 @@
+
+
+## 0.3.3 (2022-05-31)
+
 ## 0.3.2 (2022-02-18)
 
 
@@ -31,4 +35,3 @@
 ### Features
 
 * eslint jest config added ([d589f0d](https://github.com/techkit/linter-config/commit/d589f0d54f5739790974e70acb7cf15f273f0e8c))
-
