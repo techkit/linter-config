@@ -17,6 +17,7 @@ export const EslintTsConfig = defineEslintConfig({
             extends: ["plugin:@typescript-eslint/recommended"],
             rules: {
                 indent: "off",
+                "@typescript-eslint/ban-types": "off",
                 "@typescript-eslint/explicit-function-return-type": "off",
                 "@typescript-eslint/indent": ["warn", 4, { SwitchCase: 1 }],
                 "@typescript-eslint/no-non-null-assertion": "off",

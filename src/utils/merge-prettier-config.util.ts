@@ -1,6 +1,6 @@
-import defu from "defu";
+import merge from "lodash.merge";
 import { Options as PrettierConfig } from "prettier";
 
 export function mergePrettierConfig(...configs: PrettierConfig[]) {
-    return defu({}, ...configs);
+    return merge({}, ...configs);
 }

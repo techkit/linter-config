@@ -15,7 +15,7 @@ export const EslintBaseConfig = defineEslintConfig({
         eqeqeq: "error",
         quotes: [2, "double"],
         semi: [2, "always"],
-        curly: ["error", "all"],
+        curly: "off",
         indent: ["warn", 4, { SwitchCase: 1 }],
         "comma-dangle": ["error", "never"],
         "no-unused-vars": "off"
