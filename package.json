@@ -1,6 +1,6 @@
 {
     "name": "@techkit/linter-config",
-    "version": "0.3.4",
+    "version": "0.3.5",
     "license": "MIT",
     "description": "Configurations for linters",
     "repository": "git@github.com:techkit/linter-config.git",
