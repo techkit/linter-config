@@ -18,6 +18,6 @@ export const EslintBaseConfig = defineEslintConfig({
         curly: "off",
         indent: ["warn", 4, { SwitchCase: 1 }],
         "comma-dangle": ["error", "never"],
-        "no-unused-vars": "off"
+        "no-unused-vars": ["warn", { argsIgnorePattern: "_", destructuredArrayIgnorePattern: "_" }]
     }
 });
